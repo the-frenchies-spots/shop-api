@@ -11,7 +11,7 @@ import { ConfigModule } from '@nestjs/config';
       envFilePath: ['.env.development.local'],
     }),
     MongooseModule.forRoot(
-      'mongodb+srv://hello-traveler:bEfqNhDRMDSvHaYI@hello-traveler.1ej6xyp.mongodb.net/test_nest',
+      process.env.MONGO_URI,
       { useFindAndModify: false },
     ),
     ArticleModule,

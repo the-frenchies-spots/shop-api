@@ -1,8 +1,5 @@
 {
   "version": 2,
-  "env": {
-    "MONGO_URI": "mongodb+srv://hello-traveler:bEfqNhDRMDSvHaYI@hello-traveler.1ej6xyp.mongodb.net/test_nest"
-  },
   "builds": [
     {
       "src": "src/main.ts",
